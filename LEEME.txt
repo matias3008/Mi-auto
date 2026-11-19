@@ -1,0 +1,32 @@
+MI AUTO – VERSIÓN WEB INSTALABLE v2
+
+Esta PWA se instala desde Chrome en Android. No necesita Android Studio ni APK.
+
+FUNCIONES
+- Varios vehículos con matrícula, año, kilometraje, aceite y presiones.
+- Historial de mantenimientos, filtros, coste, notas y próximo kilometraje.
+- Avisos visibles al abrir la aplicación por vencimientos en 30 días, fecha o kilometraje.
+- ITV, seguro, revisión técnica e impuestos con fecha de vencimiento.
+- Recordatorios personalizados por fecha y/o kilometraje.
+- Registro de repostajes, litros, coste y cálculo aproximado L/100 km cuando se registran llenados consecutivos.
+- Gráfico mensual de gastos del año actual.
+- Informe imprimible/guardar como PDF desde Chrome.
+- Copia de seguridad JSON.
+- Datos locales y funcionamiento offline después de la primera carga.
+
+PUBLICAR DESDE EL MÓVIL CON GITHUB PAGES
+1. Descarga y extrae el ZIP en tu teléfono.
+2. En Chrome entra en https://github.com e inicia sesión o crea una cuenta.
+3. Crea un repositorio nuevo llamado mi-auto (puede ser público).
+4. En el repositorio, pulsa Add file > Upload files.
+5. Sube index.html, manifest.webmanifest, sw.js y la carpeta icons completa.
+6. Abre Settings > Pages.
+7. En Build and deployment, selecciona Deploy from a branch; rama main y carpeta /(root); guarda.
+8. Espera la publicación y abre la dirección que aparece en Settings > Pages desde Chrome Android.
+9. Menú ⋮ > Instalar aplicación o Añadir a pantalla de inicio.
+
+AVISOS IMPORTANTES
+- Los avisos se muestran dentro de la app cuando la abres; no son notificaciones push del sistema si la app está cerrada.
+- Los datos se guardan en el almacenamiento del navegador de ese teléfono. No borres los datos del sitio ni desinstales la app sin exportar antes la copia JSON.
+- El consumo L/100 km se estima con repostajes consecutivos marcados como depósito lleno.
+- Para generar el PDF, abre el informe desde la app y elige Guardar como PDF en el diálogo de impresión de Android/Chrome.
